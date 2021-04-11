@@ -1,13 +1,15 @@
-import './App.css';
+import React, {Component} from 'react'
+import './App.css'
+import Search from './Components/Search'
+import Results from './Components/Results'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
+export default class App extends Component {
+ render() {
+   return <div id="app-container">
+            <h1>Hacker News API</h1>
+            <div id="search-container"><Search /></div>
+            <div id="results-container"><Results /></div>
+          </div>
 
-      </header>
-    </div>
-  );
+  }
 }
-
-export default App;
