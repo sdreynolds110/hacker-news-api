@@ -1,28 +1,10 @@
-.App {
+#main-content {
   text-align: center;
 }
 
-#app-container {
-  width: 600px;
-  border: solid black 5px;
-  margin: auto;
-  padding: 1em;
-  text-align: center;
-}
-
-#search-container {
-    width: 550px;
-    border: solid black 5px;
-    margin: auto;
-    padding: 1em;
-    margin-bottom: 1em;
-}
-
-#results-container {
-  width: 550px;
-  border: solid black 5px;
-  margin: auto;
-  padding: 1em;
+#results {
+  text-align: left;
+  padding-left: 1em;
 }
 
 .App-header {
@@ -35,3 +17,10 @@
   color: white;
 }
 
+p {
+  margin-bottom: 0;
+}
+
+.delete {
+  display: inline-block;
+}
