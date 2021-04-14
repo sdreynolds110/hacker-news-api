@@ -1,9 +1,8 @@
 import React from "react";
 import { useSelector, useDispatch } from "react-redux";
-
 import Searchbar from "./SearchBar";
 import SearchTerm from "./SearchTerm";
-import { viewSearchAction } from "./Actions/Actions";
+import { viewAction } from "./Actions/Actions";
 
 function Search() {
   const viewSearch = useSelector((state) => state.viewSearch);
@@ -14,7 +13,7 @@ function Search() {
     <div className="bg-primary rounded p-3 mb-3">
       <div
         className="d-flex align-items-center justify-content-between"
-        onClick={() => dispatch(viewSearchAction())}
+        onClick={() => dispatch(viewAction())}
       >
         <h4 className="text-white mb-0">Search</h4>
       </div>

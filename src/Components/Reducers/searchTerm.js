@@ -1,4 +1,4 @@
-const searchTermReducer = (state = "", action) => {
+const searchReducer = (state = "", action) => {
     switch (action.type) {
       case "SEARCH":
         return action.payload;
@@ -7,4 +7,4 @@ const searchTermReducer = (state = "", action) => {
     }
   };
   
-  export default searchTermReducer;
+  export default searchReducer;

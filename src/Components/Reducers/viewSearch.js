@@ -1,4 +1,4 @@
-const viewSearchReducer = (state = true, action) => {
+const viewReducer = (state = true, action) => {
     switch (action.type) {
       case "CLICK_SEARCH":
         return state;
@@ -7,4 +7,4 @@ const viewSearchReducer = (state = true, action) => {
     }
   };
   
-  export default viewSearchReducer;
+  export default viewReducer;

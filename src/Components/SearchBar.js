@@ -2,21 +2,21 @@ import React from "react";
 import { useSelector, useDispatch } from "react-redux";
 
 import Button from "./Button";
-import { searchTermAction, addHistoryAction } from "./Actions/Actions";
+import { searchAction, addHistoryAction } from "./Actions/Actions";
 
 function Searchbar() {
   const term = useSelector((state) => state.searchTerm);
   const dispatch = useDispatch();
 
   const handleChange = (e) => {
-    dispatch(searchTermAction(e.target.value));
+    dispatch(searchAction(e.target.value));
   };
 
   const handleSubmit = (e) => {
     e.preventDefault();
     if (term.trim() !== "") {
       dispatch(addHistoryAction(term));
-      dispatch(searchTermAction(""));
+      dispatch(searchAction(""));
     }
   };
 
@@ -25,7 +25,7 @@ function Searchbar() {
       <form onSubmit={handleSubmit}>
         <input
           className="form-control form-control-sm mb-1"
-          placeholder="Search term"
+          placeholder="Use Keywords Here"
           onChange={handleChange}
           value={term}
         />

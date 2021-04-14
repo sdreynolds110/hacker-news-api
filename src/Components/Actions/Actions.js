@@ -1,10 +1,10 @@
-export const viewSearchAction = () => {
+export const viewAction = () => {
     return {
       type: "CLICK_SEARCH",
     };
   };
   
-  export const searchTermAction = (term) => {
+  export const searchAction = (term) => {
     return {
       type: "SEARCH",
       payload: term,
