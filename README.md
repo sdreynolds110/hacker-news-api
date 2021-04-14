@@ -10,7 +10,7 @@ Javascript, React, React Redux, CSS, HTML
 
 # Resources Used
 
-create-react-app
-Fundamentals of Redux Course from Dan Abramov - https://egghead.io/courses/fundamentals-of-redux-course-from-dan-abramov-bd5cc867
+create-react-app --- 
+Fundamentals of Redux Course from Dan Abramov - https://egghead.io/courses/fundamentals-of-redux-course-from-dan-abramov-bd5cc867 --- 
 React and Redux: Learn By Building Real World Projects - Eduonix - StackSkills
 
