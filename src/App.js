@@ -6,23 +6,21 @@ import Results from "./Components/Results";
 
 function App() {
   return (
-    <>
-      <div id="main-content">
+      <div className="main-content">
         <h1>Algolia News Search</h1>
         <section>
           <div className="container">
             <div className="row">
-              <div className="col-sm-4">
+              <div>
                 <Search />
               </div>
-              <div id="results" className="col-sm-8">
+              <div className="results">
                 <Results />
               </div>
             </div>
           </div>
         </section>
       </div>
-    </>
   );
 }
 
