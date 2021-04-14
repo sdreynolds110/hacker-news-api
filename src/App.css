@@ -18,9 +18,5 @@
 }
 
 p {
-  margin-bottom: 0;
-}
-
-.delete {
-  display: inline-block;
+  margin-bottom: 1em;
 }
